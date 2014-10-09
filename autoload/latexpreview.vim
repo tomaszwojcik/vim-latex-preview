@@ -18,5 +18,5 @@ function! latexpreview#PreviewLatexAsPdf()
 
   call s:ConvertToPdf(l:currentfile)
   call s:OpenPreview(l:pdffile)
-  echo 'Finished generating PDF preview:' l:pdffile
+  echom 'Finished generating PDF preview:' l:pdffile
 endfunc
